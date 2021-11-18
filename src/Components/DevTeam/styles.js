@@ -3,14 +3,14 @@ import styled from "styled-components";
 export const DevTeamContainer = styled.div`
   background-color: var(--color-primary);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
 
-  div {
+  .cards {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -36,7 +36,16 @@ export const DevTeamContainer = styled.div`
     display: flex;
     align-items: center;
 
-    div {
+    .container {
+      display: flex;
+
+      div {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+
+    .cards {
       height: 200px;
       width: 150px;
       justify-content: space-evenly;
@@ -48,12 +57,19 @@ export const DevTeamContainer = styled.div`
   }
 
   @media (min-width: 1024px) {
-    div {
+    .cards {
       height: 250px;
       width: 200px;
 
       img {
         height: 90px;
+      }
+    }
+
+    .container {
+      div {
+        margin-left: 20px;
+        margin-right: 20px;
       }
     }
   }
