@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <>
       <HeaderContainer>
-        <img alt="logo" src={logo} />
+        <img className="logoImg" alt="logo" src={logo} />
         <div>
           <div className="divClick divLeft" onClick={handleClickLogo}>
             <img alt="home pets link" src={littlePaw} />
