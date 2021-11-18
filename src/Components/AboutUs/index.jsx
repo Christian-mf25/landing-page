@@ -4,7 +4,7 @@ import { AboutContainer } from "./styles";
 const AboutUs = () => {
   return (
     <AboutContainer>
-      <h4>Sobre nós</h4>
+      <h2>Sobre nós</h2>
       <div className="aboutImgText">
         <img className="patinhas" alt="patinhas" src={paws} />
         <div className="textAboutUsParag">
