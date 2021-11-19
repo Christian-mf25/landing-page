@@ -4,9 +4,11 @@ import shoppingCart from "../../Assets/img/shopping-cart.png";
 import { HeaderContainer } from "./styles";
 
 const Header = () => {
-  const handleClickLogo = () => console.log("clicou");
+  const handleClickLogo = () =>
+    (window.location.href = "https://home-pets-adoption.vercel.app/login");
 
-  const handleClickEcommerce = () => console.log("clicou");
+  const handleClickEcommerce = () =>
+    (window.location.href = "https://home-pets-ecommerce.vercel.app/login");
 
   return (
     <>
@@ -19,7 +21,7 @@ const Header = () => {
           </div>
           <div className="divClick" onClick={handleClickEcommerce}>
             <img alt="ecommerce link" src={shoppingCart} />
-            <p className="texts">Home Pets Adoption</p>
+            <p className="texts">Home Pets Ecommerce</p>
           </div>
         </div>
       </HeaderContainer>
