@@ -8,6 +8,11 @@ export const HeaderContainer = styled.div`
   padding-left: 25px;
   padding-right: 5px;
 
+  .logoImg {
+    height: 50px;
+    padding-top: 15px;
+  }
+
   div {
     display: flex;
     align-items: center;
@@ -29,6 +34,12 @@ export const HeaderContainer = styled.div`
   @media (min-width: 768px) {
     padding-left: 60px;
     padding-right: 40px;
+    height: 90px;
+
+    .logoImg {
+      height: 65px;
+      padding-top: 12px;
+    }
 
     div {
       img {
