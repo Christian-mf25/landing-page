@@ -18,7 +18,7 @@ export const DevTeamContainer = styled.div`
     background-color: var(--color-primary-50);
     border-radius: 5px;
     width: 190px;
-    height: 130px;
+    height: 150px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 5px;

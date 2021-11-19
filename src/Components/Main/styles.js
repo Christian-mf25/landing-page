@@ -14,6 +14,11 @@ export const BodyContainer = styled.div`
     align-items: center;
     width: 85%;
 
+    .divTextButton {
+      display: flex;
+      flex-direction: column;
+    }
+
     h2 {
       padding-top: 25px;
     }
